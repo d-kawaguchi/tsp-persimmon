@@ -8,7 +8,7 @@ type Props = {
 export const Copyright: FC<Props> = ({ text }) => <Paragraph>&copy; {text}</Paragraph>
 
 const Paragraph = styled.p`
-  color: palevioletred;
+  color: #ccc;
   font-size: 1.5em;
   text-align: center;
 `;
