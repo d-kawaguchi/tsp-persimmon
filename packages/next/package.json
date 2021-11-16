@@ -2,6 +2,7 @@
   "name": "next",
   "scripts": {
     "build": "next build",
+    "build-storybook": "build-storybook",
     "check-all": "run-s fix check-code test",
     "check-code": "run-p spell-check lint type-check",
     "dev": "next dev",
@@ -17,6 +18,7 @@
     "lint:ts": "eslint \"./src/**/*.{ts,tsx}\"",
     "spell-check": "cspell \"./src/**/*.{ts,tsx}\"",
     "start": "next start",
+    "storybook": "start-storybook -p 6006",
     "test": "jest",
     "type-check": "tsc"
   },
@@ -28,13 +30,21 @@
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/react": "^6.4.0-beta.30",
+    "@storybook/testing-react": "^1.0.0-next.0",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.0.2",
     "@types/react": "17.0.30",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
     "babel-jest": "^27.3.1",
+    "babel-loader": "^8.2.3",
     "cspell": "^5.12.3",
     "esbuild-jest": "^0.5.0",
     "eslint": "8.0.1",
