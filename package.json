@@ -1,0 +1,16 @@
+{
+  "name": "tsp-persimmon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/d-kawaguchi/tsp-persimmon.git",
+  "author": "d-kawaguchi <45481012+d-kawaguchi@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^7.0.4"
+  }
+}
