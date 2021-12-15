@@ -19,4 +19,5 @@ module.exports = {
     "plugin/declaration-block-no-ignored-properties": true,
     "plugin/no-unsupported-browser-features": true,
   },
+  customSyntax: "postcss-jsx"
 }
