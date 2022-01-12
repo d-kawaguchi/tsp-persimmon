@@ -1,0 +1,22 @@
+{
+  "failedItems": [],
+  "newItems": [
+    "Stories/Button/Large.png",
+    "Stories/Button/Primary.png",
+    "Stories/Button/Secondary.png",
+    "Stories/Button/Small.png"
+  ],
+  "deletedItems": [],
+  "passedItems": [],
+  "expectedItems": [],
+  "actualItems": [
+    "Stories/Button/Large.png",
+    "Stories/Button/Primary.png",
+    "Stories/Button/Secondary.png",
+    "Stories/Button/Small.png"
+  ],
+  "diffItems": [],
+  "actualDir": "./.screenshot/actual",
+  "expectedDir": "./.screenshot/expected",
+  "diffDir": "./.screenshot/diff"
+}
